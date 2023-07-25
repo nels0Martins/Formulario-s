@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Formulário's</title>
+</head>
+<body>
+        <section id="title-p">
+            <h1 id="title">Formulário's</h1>
+            <p id="description">Enviando primeiro projeto! :&angle;</p>
+        </section>
+        
+        <div id="principal">
+
+            <section id="input-form">
+                <form action="nelsonmartinsjp2001@gmail.com" id="survey-form" method="get">
+                    
+                    <label for="name" id="name-label" class="pessoal">Nome <br>
+                        <input type="text" id="name" placeholder="Digite seu nome" required>
+                    </label> <br>
+
+                    <label for="" id="email-label" class="pessoal">E-mail <br>
+                        <input type="email" id="email" placeholder="Digite seu e-mail" required>
+                    </label> <br>
+
+                    <label for="" id="number-label" class="pessoal">Idade (opcional)<br>
+                        <input type="number" id="number" min="10" max="120" placeholder="Digite sua idade">
+                    </label> <br>
+
+                    <p>Selecione a melhor opção:</p>
+                    <select name="select" id="dropdown">
+                        <option value="Opção01" selected>Opção 01</option>
+                        <option value="Opção02">Opção 02</option>
+                        <option value="Opção03">Opção 03</option>
+                        <option value="Opção4">Opção 04</option>
+                        <option value="Opção05">Opção 05</option>
+                    </select> <br>
+
+                    <div id="input-radio">
+                        <p>Marque a melhor opção?</p>
+                        <input type="radio" name="radio" value="Opção01" class="radio"> Opção 01 <br>
+                        <input type="radio" name="radio" value="Opção02" class="radio"> Opção 02 <br>
+                        <input type="radio" name="radio" value="Opção02" class="radio"> Opção 03 <br>
+                    </div>
+
+                    <p class="p-title">Selecione a melhor opção:</p>
+                    <select name="select" class="dropdown">
+                        <option value="Opção01" selected> Opção 01</option>
+                        <option value="Opção02"> Opção 02</option>
+                        <option value="Opção03"> Opção 03</option>
+                        <option value="Opção4"> Opção 04</option>
+                        <option value="Opção05"> Opção 05</option>
+                    </select> <br>
+
+                    <div id="input-checkbox">
+                        <p class="p-title">Marque as caixinhas:</p>
+                        <input type="checkbox" checked value="Opção01"> Opção 01 <br>
+                        <input type="checkbox" value="Opção02"> Opção 02 <br>
+                        <input type="checkbox" value="Opção03"> Opção 03 <br>
+                        <input type="checkbox" value="Opção04"> Opção 04 <br>
+                        <input type="checkbox" value="Opção05"> Opção 05 <br>
+                    </div>
+
+                    <p class="p-title">Algo a mais? Digite aqui:</p>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" style="font-family: 'Poppins';" resize>
+                    </textarea> <br>
+
+                    <a href="#">
+                        <button type="submit" id="submit">
+                            Enviar!
+                        </button>
+                    </a>
+
+                </form>
+            </section>
+    </div>
+</body>
+</html>
